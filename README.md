@@ -2,9 +2,9 @@
 
 Product Builder · previously Engineering Manager
 
-### Side projects
+### Things I build
 
-Small tools that change how I work with AI. Built for my own work first, shared in case they help yours.
+Tools that change how I work with AI. Built for my own work first, shared in case they help yours.
 
 #### [review-powers](https://github.com/jcesarperez/review-powers)
 

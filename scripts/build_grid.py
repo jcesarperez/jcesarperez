@@ -18,11 +18,12 @@ PITCH = CELL + GAP
 PAD = 2
 VW, VH = W * PITCH - GAP + 2 * PAD, H * PITCH - GAP + 2 * PAD
 
-T = 16.0                # plays once, then freezes on the real graph
-LIFE_START, LIFE_END = 2.0, 8.6
-MAZE_IN = 8.6           # walls sweep in
-CHASE_START = 9.3
-FADE_OUT, FADE_END = 15.2, 15.7
+DELAY = 3.0             # real graph stays still before anything moves
+T = 16.0 + DELAY                # plays once, then freezes on the real graph
+LIFE_START, LIFE_END = DELAY + 2.0, DELAY + 8.6
+MAZE_IN = DELAY + 8.6           # walls sweep in
+CHASE_START = DELAY + 9.3
+FADE_OUT, FADE_END = DELAY + 15.2, DELAY + 15.7
 
 EMPTY = "#ebedf0"
 LEVELS = ["#9be9a8", "#40c463", "#30a14e", "#216e39"]
