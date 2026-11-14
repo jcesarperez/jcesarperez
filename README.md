@@ -1,0 +1,34 @@
+## Julio César Pérez
+
+Product Builder. I build small tools that change how I work with AI.
+
+<img src="assets/grid.svg" width="100%" alt="My contribution graph comes alive, speeds up and turns into a maze chase">
+
+### [review-powers](https://github.com/jcesarperez/review-powers)
+
+**AI code reviews are long. Decisions are short.**
+Skills that turn an AI code review into a decision report. You review the review, then decide. One of them reviews a whole ticket at once, across all its PRs and repos.
+
+### [claude-desktop-cache-and-cost](https://github.com/jcesarperez/claude-desktop-cache-and-cost)
+
+**Know when your cache expires, and what the session has cost.**
+A status line for the Claude Desktop Code tab: a prompt-cache countdown and the running cost of the session.
+
+### [english-coach](https://github.com/jcesarperez/english-coach)
+
+**Sound senior, not just correct.**
+A skill that coaches Spanish-speaking engineering leaders out of literal translations, over-hedging and over-apologizing.
+
+<sub>Also: [claude-em](https://github.com/jcesarperez/claude-em), an Engineering Manager operating system for Claude Code. Built back when I was one.</sub>
+
+### Talks & podcasts <sub>in Spanish</sub>
+
+- [Una historia de Deuda Técnica: de la queja a la estrategia](https://www.youtube.com/watch?v=p_UCjb8QeAk) · MurciaDev, 2025
+- [Cultura de Ingeniería](https://www.youtube.com/watch?v=h3-QURUjdr8) · Manfred Stories
+- [Deuda Técnica: qué es, qué no es y cómo cuantificarla](https://www.youtube.com/watch?v=BT6PGWTcAHQ) · LambdaCast #16
+
+[All talks →](https://www.youtube.com/watch?v=BT6PGWTcAHQ&list=PLc9GIQ4dRLPCl38R9F-MCH3Jt_e5Dy-nl)
+
+---
+
+[LinkedIn](https://www.linkedin.com/in/juliocesarperezarques/) · [Small Steps](https://jcesarperez.substack.com/) newsletter · [X](https://x.com/jcesarperez) · [Bluesky](https://bsky.app/profile/jcesarperez.bsky.social)
