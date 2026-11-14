@@ -18,7 +18,7 @@ PITCH = CELL + GAP
 PAD = 2
 VW, VH = W * PITCH - GAP + 2 * PAD, H * PITCH - GAP + 2 * PAD
 
-T = 16.0                # loop length, seconds
+T = 16.0                # plays once, then freezes on the real graph
 LIFE_START, LIFE_END = 2.0, 8.6
 MAZE_IN = 8.6           # walls sweep in
 CHASE_START = 9.3
@@ -53,9 +53,9 @@ def cell_path(x, y):
 def show_between(a, b):
     """Discrete opacity animation: visible from a to b within the loop."""
     if b >= T:
-        return (f'<animate attributeName="opacity" dur="{T}s" repeatCount="indefinite" '
+        return (f'<animate attributeName="opacity" dur="{T}s" fill="freeze" '
                 f'calcMode="discrete" keyTimes="0;{kt(a)}" values="0;1"/>')
-    return (f'<animate attributeName="opacity" dur="{T}s" repeatCount="indefinite" '
+    return (f'<animate attributeName="opacity" dur="{T}s" fill="freeze" '
             f'calcMode="discrete" keyTimes="0;{kt(a)};{kt(b)}" values="0;1;0"/>')
 
 
@@ -116,7 +116,7 @@ for i in range(GENS):
     t += durations[i]
 
 # ---------- 3. Maze ----------
-CONN_ROW2 = {6, 14, 22, 37, 46}
+CONN_ROW2 = {6, 14, 22, 30, 38, 46}
 CONN_ROW4 = {10, 18, 30, 42}
 
 
@@ -175,7 +175,7 @@ out.append(f'<path fill="{EMPTY}" d="' + "".join(cell_path(x, y) for x in range(
 
 # Real graph: visible at the start, fades back in at the end of the loop
 out.append('<g>')
-out.append(f'<animate attributeName="opacity" dur="{T}s" repeatCount="indefinite" '
+out.append(f'<animate attributeName="opacity" dur="{T}s" fill="freeze" '
            f'keyTimes="0;{kt(LIFE_START)};{kt(LIFE_START + 0.001)};{kt(FADE_END)};1" values="1;1;0;0;1"/>')
 for lv, paths in real.items():
     if paths:
@@ -192,7 +192,7 @@ for a, b, by_level in frames:
 
 # Maze (walls + dots), faded out together at the end
 out.append('<g>')
-out.append(f'<animate attributeName="opacity" dur="{T}s" repeatCount="indefinite" '
+out.append(f'<animate attributeName="opacity" dur="{T}s" fill="freeze" '
            f'keyTimes="0;{kt(FADE_OUT)};{kt(FADE_END)};1" values="1;1;0;0"/>')
 for sweep, d in walls:
     out.append(f'<path fill="{WALL}" opacity="0" d="{d}">{show_between(sweep, T)}</path>')
@@ -204,7 +204,7 @@ out.append('</g>')
 def motion(lag_cells, rotate):
     start = CHASE_START + lag_cells * PITCH / speed
     end = start + L / speed
-    return (f'<animateMotion dur="{T}s" repeatCount="indefinite" path="{route_d}" rotate="{rotate}" '
+    return (f'<animateMotion dur="{T}s" fill="freeze" path="{route_d}" rotate="{rotate}" '
             f'calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;{kt(start)};{kt(end)};1"/>')
 
 
