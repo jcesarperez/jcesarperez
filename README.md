@@ -26,8 +26,6 @@ A skill that coaches Spanish-speaking engineering leaders out of literal transla
 **An operating system for Engineering Managers.**
 Claude Code with your team's context and skills for planning, epics, 1:1s and performance reviews. Built back when I was one.
 
-<img src="assets/grid.svg" width="100%" alt="My contribution graph comes alive, speeds up and turns into a maze chase">
-
 ### 📡 Writing & talks
 
 My latest articles and talks, in Spanish.
@@ -42,6 +40,6 @@ My latest articles and talks, in Spanish.
 
 [Substack →](https://jcesarperez.substack.com/) · [All talks →](https://www.youtube.com/playlist?list=PLc9GIQ4dRLPCl38R9F-MCH3Jt_e5Dy-nl)
 
----
+<img src="assets/grid.svg" width="100%" alt="My contribution graph comes alive, speeds up and turns into a maze chase">
 
 [LinkedIn](https://www.linkedin.com/in/juliocesarperezarques/) · [Small Steps](https://jcesarperez.substack.com/) newsletter · [X](https://x.com/jcesarperez) · [Bluesky](https://bsky.app/profile/jcesarperez.bsky.social)
