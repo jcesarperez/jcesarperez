@@ -40,7 +40,7 @@ My latest articles and talks, in Spanish.
 - ✍️ [Cómo acelerar tu proceso de desarrollo](https://jcesarperez.substack.com/p/como-acelerar-tu-proceso-de-desarrollo) · Small Steps · Aug 2025
 <!-- CONTENT:END -->
 
-[Small Steps newsletter →](https://jcesarperez.substack.com/) · [All talks →](https://www.youtube.com/playlist?list=PLc9GIQ4dRLPCl38R9F-MCH3Jt_e5Dy-nl)
+[Substack →](https://jcesarperez.substack.com/) · [All talks →](https://www.youtube.com/playlist?list=PLc9GIQ4dRLPCl38R9F-MCH3Jt_e5Dy-nl)
 
 ---
 
