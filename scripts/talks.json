@@ -1,0 +1,13 @@
+{
+  "_comment": "Clean titles and venues for the YouTube playlist. Keyed by video id. 'date' (YYYY-MM-DD) overrides the upload date. Videos missing here use the raw YouTube title and channel.",
+  "p_UCjb8QeAk": {"title": "Una historia de Deuda Técnica: de la queja a la estrategia", "venue": "MurciaDev", "date": "2025-10-01"},
+  "h3-QURUjdr8": {"title": "Cultura de Ingeniería", "venue": "Manfred Stories"},
+  "BT6PGWTcAHQ": {"title": "Deuda Técnica: qué es, qué no es y cómo cuantificarla", "venue": "LambdaCast #16"},
+  "m6eFOAKuI-g": {"title": "¿Se puede medir la productividad de los programadores?", "venue": "Mariano Renteria podcast"},
+  "ygMZ6-Nq-Sw": {"title": "Pair Programming, ¿productivo o pérdida de tiempo?", "venue": "LambdaCast #11"},
+  "yrUwdJKRp3I": {"title": "Extreme Programming, la revancha", "venue": "Mariano Renteria podcast"},
+  "nv9ZPEsBVw4": {"title": "Una historia de testing", "venue": "Codurance Spain"},
+  "vUw-ntg-xg0": {"title": "Seniors, Mediors y otros seres mitológicos", "venue": "Dani"},
+  "W9Ft4wLNmeY": {"title": "Agilidad de Devs para Devs", "venue": "Mundo XP"},
+  "3ixqXCVnmEk": {"title": "Una historia de Testing", "venue": "Agile Wise"}
+}
