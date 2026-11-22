@@ -38,10 +38,10 @@ My latest articles and talks, in Spanish.
 - ✍️ [Cómo acelerar tu proceso de desarrollo](https://jcesarperez.substack.com/p/como-acelerar-tu-proceso-de-desarrollo) · Small Steps · Aug 2025
 <!-- CONTENT:END -->
 
-[Substack →](https://jcesarperez.substack.com/) · [All talks →](https://www.youtube.com/playlist?list=PLc9GIQ4dRLPCl38R9F-MCH3Jt_e5Dy-nl)
+[Small Steps newsletter →](https://jcesarperez.substack.com/) · [All talks →](https://www.youtube.com/playlist?list=PLc9GIQ4dRLPCl38R9F-MCH3Jt_e5Dy-nl)
 
 <img src="assets/grid.svg" width="100%" alt="My contribution graph comes alive, speeds up and turns into a maze chase">
 
 ---
 
-[LinkedIn](https://www.linkedin.com/in/juliocesarperezarques/) · [Small Steps](https://jcesarperez.substack.com/) newsletter · [X](https://x.com/jcesarperez) · [Bluesky](https://bsky.app/profile/jcesarperez.bsky.social)
+[LinkedIn](https://www.linkedin.com/in/juliocesarperezarques/) · [Substack](https://jcesarperez.substack.com/) · [X](https://x.com/jcesarperez) · [Bluesky](https://bsky.app/profile/jcesarperez.bsky.social)
